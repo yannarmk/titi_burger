@@ -1,0 +1,297 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+/*.flex2{
+    display: flex;
+    justify-content: center;
+}*/
+.callToAction{ 
+    background-color: #FAD541;
+    border-radius: 4px;
+    color: #AD5B1C;
+    text-align: center;
+    text-decoration: none;
+    padding: 7px;
+    font-weight: 1000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    transition: 1s;
+}
+.callToAction:hover{
+    color: #FAD541;
+    background-color: #AD5B1C;
+    filter: brightness(0.8);  
+}
+.listeNav{
+    color: #FAD541;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+    font-weight: 900;
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif; 
+    transition: 1s;
+}
+.listeNav:hover{
+    color:#AD5B1C;
+    filter: brightness(0.8);  
+}
+header{
+    height: 70vh;
+   /* background: rgb(255, 255, 255);*/
+    background-image: url(../asset/clem-onojeghuo-175917.jpg); 
+    background-size: cover;
+    background-position: center;
+}
+.logo{
+     height: 200px;
+     width: 200px;
+     display: flex;
+     justify-content: center;
+     padding-top: 20px;
+} 
+.logo img{
+    width: 90%;
+    height: 90%;
+   /* justify-content: space-between;*/
+} 
+.commande{
+    height: 100px;
+    width: 40%;
+}
+.cta{
+   padding: 30px; 
+   text-align: right;  
+}
+.cta .callToAction{
+    margin-left: 20px;
+}
+nav{
+    text-align: center;
+    padding-right: 30px;
+    margin-top: 20px;
+}
+main{
+    width: 100%;
+    margin: auto;
+}
+.m1{
+     height: 250px;  
+     margin-top: 20px; 
+}
+.a1{
+    margin: 50 auto;
+}
+    .a1 img{
+        width: 300px;
+        height: 200px;
+        border-radius: 10px;
+    }
+    h1{
+        display: flex;
+        justify-content: center;
+        font-weight: 900;
+        font-size: 40px;
+        font-family: 'Roboto', sans-serif; 
+        transition: 1s;  
+        color: #FAD541;
+    }
+.a2{
+    height: 100%;
+    width: 1100px ;
+    margin: 50 auto;  
+    text-align: center;  
+    padding-top: 20px;
+}
+    h2{
+        display: flex;
+        justify-content: center;
+        font-weight: 900;
+        font-size: 36px;
+        font-family: 'Roboto', sans-serif; 
+        transition: 1s;  
+        color: #7FAD3E; 
+        padding-top: 10px;
+    }
+    p{
+        font-weight: 700;
+        font-size: 16px;
+        font-family: 'Roboto', sans-serif;  
+        color: #AD5B1C;
+    }
+.m2{
+    height:250px;
+}
+.b1{
+    height: 100%;
+    width: 40%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b2{
+    height: 100%;
+    width: 60%;
+    justify-content: center;
+    align-content: center;
+    padding-top: 10px;
+}
+    .b2 img{
+        width: 200px;
+        height: 200px;
+        border-radius: 10px;
+    }
+        .burger1{
+            width: 33.33%;
+           /* align-content: center;*/
+            text-align: center;
+        }
+        .burger2{
+            width: 33.33%;
+            /*align-content: center;*/
+            text-align: center;
+        }
+        .burger3{
+            width: 33.33%;
+            /*align-content: center;*/
+            text-align: center;
+        }
+.m3{
+    width: 100%; 
+    display: flex;  
+    justify-content: flex-start; 
+}
+h3{
+    font-weight: 900;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif; 
+    transition: 1s;  
+    color: #FAB480; 
+    padding-top: 10px;
+}
+.c1{
+   text-align: center; 
+   width: 33.33%;
+}
+    .c1 img{
+        width: 150px;
+        height: 150px;
+        border-radius: 10px;
+    }
+.c2{
+    text-align: center;
+    width: 33.33%;  
+}
+    .c2 img{
+        width: 150px;
+        height: 150px;
+        border-radius: 10px;
+    }
+.c3{
+    width: 33.33%;
+    text-align: center;
+
+}
+    .c3 img{
+        width: 150px;
+        height: 150px;
+        border-radius: 10px;
+    }
+    .m4{
+        height: 250px;
+        border-bottom: 2px solid red;
+    }
+        .d1{
+            height: 100%;
+            width: 40%;
+            background: rgb(52, 52, 86);
+        }
+        .d2{
+            height: 100%;
+            width: 60%;
+            background: rgb(99, 99, 139);
+        }
+footer{
+    height: 200px;
+    background: grey;
+}
+    .container{
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+    }
+        .a{
+            height: 100%;
+            width: 20%;
+            background-color: rgb(86, 71, 45);
+        }
+        .b{
+            height: 100%;
+            width: 20%;
+            background-color: rgb(150, 123, 78);
+        }
+        .c{
+            height: 100%;
+            width: 20%;
+            background-color: rgb(86, 71, 45);
+        }
+        .d{
+            height: 100%;
+            width: 20%;
+            background-color: rgb(150, 123, 78);
+        }
+        .e{
+            height: 100%;
+            width: 20%;
+            background-color: rgb(86, 71, 45);
+        }
