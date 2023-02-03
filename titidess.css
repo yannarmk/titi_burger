@@ -1,0 +1,280 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.flexb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flexc{
+    display: flex;
+    flex-wrap: wrap;
+}
+header{
+    height: 40vh;
+    background-image: url(../asset/clem-onojeghuo-175917.jpg); 
+    background-size: cover;
+    background-position: center;
+}
+.logo{
+     height: 200px;
+     width: 200px;
+     display: flex;
+     justify-content: center;
+     padding-top: 20px;
+} 
+.logo img{
+    width: 90%;
+    height: 90%;
+} 
+.commande{
+    padding-top: 30px;
+    padding-right: 30px;
+}
+.callToAction{ 
+    background-color: #FAD541;
+    border-radius: 4px;
+    color: #AD5B1C;
+    text-align: center;
+    text-decoration: none;
+    padding: 7px;
+    font-weight: 1000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    transition: 1s;
+}
+.callToAction:hover{
+    color: #FAD541;
+    background-color: #AD5B1C;
+    filter: brightness(0.8);  
+}
+
+main{
+    margin: 25px 0;
+    background: linear-gradient( #f3cbad, 60%, #AD5B1C);  
+}
+.container{
+   padding: 0 50px;  
+}
+.title{
+    width: 100%;
+    height: 150px;
+    border-bottom: #7b3e0f 3px dotted;
+}
+.titlegc{
+    padding-top: 10px;
+}
+.filari{
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 6px;
+}
+.bur, .acc,.bois,.dess{
+    height: 30px;
+    width: 30px;
+    background: #AD5B1C;
+    border-radius: 10px;
+    margin: 5px;
+    background-size: cover;
+    background-position: center;
+}
+.bur{
+    background-image: url(../asset/photos_burger/food-photographer-david-fedulov-X92WLoaQ1_o-unsplash.jpg);
+}
+.acc{
+    background-image: url(../asset/photos_burger/pexels-kei-photo-2741461.jpg);
+}
+.bois{
+    background-image: url(../asset/photos_burger/Nouveau_dossier/jus-de-pomme.jpeg); 
+}
+.dess{
+    height: 40px;
+    width: 40px;
+}
+.cb{
+    height:30px;
+    width: 30px;
+    margin: 5px; 
+}
+    .img{
+        width: 200px;
+        height: 150px;
+        border-radius: 10px;
+        box-shadow: 0px 10px 5px #a16f4c;
+        padding-top: 5px;
+        object-fit: cover;
+    }
+    h1{
+        font-weight: 900;
+        font-size: 56px;
+        font-family: 'Alegreya', sans-serif;   
+        color: #FAD541; 
+        -webkit-text-stroke: 1.5px #AD5B1C;
+    }  
+    h2{
+        justify-content: flex-end;
+        font-weight: 900;
+        font-size: 40px;
+        font-family: 'Alegreya', sans-serif;   
+        color: #7FAD3E; 
+        -webkit-text-stroke: 1.5px #AD5B1C;
+    }
+    h3{
+        font-weight: 900;
+        font-size: 36px;
+        font-family: 'Alegreya', sans-serif; 
+        -webkit-text-stroke: 0.5px #AD5B1C;  
+        color: #FAD541; 
+        
+    }
+    p{
+        font-weight: 700;
+        font-size: 16px;
+        font-family: 'Roboto', sans-serif;  
+        color: #AD5B1C;
+        padding-bottom: 10px;
+    }
+    .ppb{
+        text-align: center;
+    }
+    .arfo{
+        padding-top: 25px;
+    }
+    .arnam{
+        padding-top: 90px;
+    }
+    .artex{
+        padding-top: 80px;
+    }
+    #choose{
+        align-items: center;
+    }
+.choixa{
+    width: 100%;
+    height: 200px;
+    border-bottom: #7b3e0f 3px dotted;
+}
+input {
+    margin: 1rem;
+    padding-bottom: 90px;
+}
+.choixb{
+    width: 100%;
+    height: 200px;
+    border-bottom: #7b3e0f 3px dotted;
+}
+.choixc{
+    width: 100%;
+    height: 200px;
+    border-bottom: #7b3e0f 3px dotted;
+}
+.choixd{
+    width: 100%;
+    height: 200px;
+    border-bottom: #7b3e0f 3px dotted;
+}
+.baspage{
+    width: 100%;
+    height: 150px;
+}
+footer{
+    height: 200px;
+    background: linear-gradient(  #AD5B1C, 60%, #6e3305);
+    margin: 0;
+    padding: 0;
+}
+    .containerb{
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    }
+    .pp{
+        font-weight: 700;
+        font-size: 16px;
+        font-family: 'Roboto', sans-serif;  
+        color: white;   
+    }
+        .a{
+            height: 100%;
+            width: 20%;
+            text-align: center;
+            padding-top: 60px;   
+        }
+        .b{
+            height: 100%;
+            width: 20%;
+            text-align: center;
+            padding-top: 40px;  
+        }
+        .c{
+            height: 100%;
+            width: 20%; 
+            padding-top: 30px; 
+            text-align: center;
+        }
+        .plan{
+            width: 196px;
+            padding-bottom: 5px;
+        }
+        .d{
+            height: 100%;
+            width: 20%;  
+            text-align: center;
+            padding-top: 70px;   
+        }
+        .e{
+            height: 100%;
+            width: 20%;
+            padding-top: 70px;
+        }
